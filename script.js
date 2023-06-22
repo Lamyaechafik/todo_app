@@ -48,7 +48,7 @@ function addTodo(todo) {
 
     todoEL.addEventListener("click", () => {
       todoEL.classList.toggle("completed");
-      updateLS()
+      updateLS();
     });
 
     //move list item
@@ -60,7 +60,7 @@ function addTodo(todo) {
       updateLS();
     });
   }
-  updateLS()
+  updateLS();
 }
 
 function updateLS() {
